@@ -16,7 +16,7 @@ import java.util.concurrent.Executors
  */
 class EventLogger(context: Context) {
 
-    private val logFile: File by lazy {
+    val logFile: File by lazy {
         val dir = File(context.getExternalFilesDir(null), "logs").apply { mkdirs() }
         File(dir, "motion_events.log")
     }
@@ -35,8 +35,6 @@ class EventLogger(context: Context) {
             }
         }
     }
-
-    fun getLogFile(): File = logFile
 
     fun shutdown() {
         executor.shutdown()
