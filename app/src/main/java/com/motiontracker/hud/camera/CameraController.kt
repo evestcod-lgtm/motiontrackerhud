@@ -65,7 +65,7 @@ class CameraController(
 
         val preview = Preview.Builder()
             .build()
-            .also { it.surfaceProvider = previewView.surfaceProvider }
+            .also { it.setSurfaceProvider(previewView.surfaceProvider) }
 
         val imageAnalysis = ImageAnalysis.Builder()
             .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
