@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hud_background">#0A0F0A</color>
+    <color name="hud_panel_bg">#CC0D140D</color>
+    <color name="hud_green">#39FF6A</color>
+    <color name="hud_green_dim">#1F8A3E</color>
+    <color name="hud_green_bright">#7CFFA0</color>
+    <color name="hud_amber">#FFC24B</color>
+    <color name="hud_red">#FF4B4B</color>
+    <color name="hud_text_primary">#D8FFE0</color>
+    <color name="hud_text_secondary">#7FBF8E</color>
+    <color name="hud_border">#2E6B3E</color>
+    <color name="hud_scrim">#66000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

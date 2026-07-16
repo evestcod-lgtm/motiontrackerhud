@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hud_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/rationaleIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◎"
+        android:textColor="@color/hud_green"
+        android:textSize="56sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/rationaleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/permission_rationale_title"
+        android:textColor="@color/hud_text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/rationaleBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/permission_rationale_body"
+        android:textColor="@color/hud_text_secondary"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/rationaleActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/permission_grant_button"
+        android:textColor="@color/hud_background"
+        android:backgroundTint="@color/hud_green"
+        android:textStyle="bold"
+        android:letterSpacing="0.05" />
+
+</LinearLayout>
